@@ -20,7 +20,7 @@ File contents:
 
 "dim.txt"                 contains (n, N, nZ, nB)
 "bags.txt"                contains the assignment instance-to-bag
-"bagLabels.txt"           contains the positive (+1) / negative (-1) label of each bag
+"bagLabels.txt"           contains the positive (+1) / negative (-1) label of each bag containing the instance
 "aIndx.txt", "aJindx.txt" contain the pair i,j of each nonzero component of A
 "aVal.txt"                contains the nZ nonzero component of A, i.e., for k in (1..nZ): A[aIndx[k]][aJindx[k]] = aVal[k]
 "trainFold.txt"           contains 10 list of bag index, each containing (0.9 x nB) bag indexes, for the tenfold cross validation training.
